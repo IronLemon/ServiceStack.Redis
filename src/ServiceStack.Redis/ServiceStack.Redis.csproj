@@ -130,6 +130,7 @@
       <HintPath>..\..\lib\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -147,6 +148,12 @@
     <Compile Include="BasicRedisClientManager.ICacheClient.cs" />
     <Compile Include="BufferPool.cs" />
     <Compile Include="Commands.cs" />
+    <Compile Include="Configuration\CommonSettings.cs" />
+    <Compile Include="Configuration\Host.cs" />
+    <Compile Include="Configuration\Hosts.cs" />
+    <Compile Include="Configuration\ICommonSettings.cs" />
+    <Compile Include="Configuration\IRedisClientManagerConfiguration.cs" />
+    <Compile Include="Configuration\RedisClientManagerConfiguration.cs" />
     <Compile Include="ConnectionUtils.cs" />
     <Compile Include="Generic\ManagedListGeneric.cs" />
     <Compile Include="Generic\QueuedRedisTypedCommand.cs" />

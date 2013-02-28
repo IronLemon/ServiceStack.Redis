@@ -154,6 +154,7 @@
       <HintPath>..\..\lib\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -169,6 +170,7 @@
   <ItemGroup>
     <Compile Include="AdhocClientTests.cs" />
     <Compile Include="Benchmarks\RedisMqHostPoolBenchmarks.cs" />
+    <Compile Include="Configuration\RedisClientManagerConfigurationTests.cs" />
     <Compile Include="DiagnosticTests.cs" />
     <Compile Include="Generic\RedisClientListTestExtra.cs" />
     <Compile Include="ManagedListGenericTests.cs" />
@@ -252,6 +254,7 @@
     <Compile Include="QueueTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="Examples\BlogPostExample.cd" />
   </ItemGroup>
   <ItemGroup>
